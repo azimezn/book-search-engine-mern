@@ -27,6 +27,7 @@ const typeDefs = gql`
     books: [Book]
     user: [User]
     user(id: ID!): User
+    me: User
  
   }
 
